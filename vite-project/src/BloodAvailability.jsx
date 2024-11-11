@@ -16,7 +16,7 @@ const BloodAvailability = () => {
     }
 
     try {
-      const response = await axios.get(`http://localhost:5010/api/donors/search`, {
+      const response = await axios.get(`https://fullstack-backend-occy.onrender.com/api/donors/search`, {
         params: { bloodGroup: search },
         withCredentials: true,
         headers: { "Content-Type": "application/json" },
