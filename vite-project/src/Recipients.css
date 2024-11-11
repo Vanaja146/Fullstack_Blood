@@ -1,0 +1,99 @@
+/* Overall styling for the Recipients component */
+.recipients {
+    padding: 70px;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  /* Enhanced box-shadow for the header */
+
+
+
+
+  .recipients h2 {
+    font-size: 28px;
+    color: #5cb85c; /* Green to represent health and success */
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields styling */
+  .recipients input {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .recipients input:focus {
+    border-color: #5cb85c; /* Focus on input fields in green */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .recipients button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recipients button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+  }
+  
+  /* Table styling */
+  .recipients table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recipients table, .recipients th, .recipients td {
+    border: 1px solid #ddd;
+  }
+  
+  .recipients th, .recipients td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .recipients th {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .recipients tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .recipients tr:hover {
+    background-color: #e1e1e1;
+  }
+  
+  /* Recipient list heading */
+  .recipients h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .recipients input {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .recipients table {
+      font-size: 14px;
+    }
+  }
+  

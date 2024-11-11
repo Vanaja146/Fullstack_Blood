@@ -1,0 +1,81 @@
+.donation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.info-section {
+    width: 75%;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.blood-bag {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.save-lives {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.donation-text {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.donate-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.donate-button:hover {
+    background-color: darkred;
+}
+
+.blood-type-compatibility {
+    max-width: 45%;
+}
+
+.compatibility-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.compatibility-table th,
+.compatibility-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.compatibility-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.compatibility-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.compatibility-table tr:hover {
+    background-color: #eaeaea;
+}

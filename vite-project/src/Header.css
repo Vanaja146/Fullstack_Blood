@@ -1,0 +1,195 @@
+/* Header.css */
+/* .header {
+    background-color:gray; 
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 2px -2px gray;
+  } */
+  
+  .header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header li {
+    margin: 0 15px;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header a:hover {
+    color: #ffd700; /* Golden color on hover */
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsive adjustments for smaller screens */
+    .header nav {
+      flex-direction: column;
+    }
+  
+    .header ul {
+      flex-direction: column;
+    }
+  
+    .header li {
+      margin: 10px 0;
+    }
+  }
+  /* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color:gray;
+  }
+   */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 90px;
+    width: auto;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  /* General header styles */
+.header {
+  background-color: white; 
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 4px 2px -2px gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px; 
+}
+
+/* Navigation container */
+.header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px; /* Additional spacing between logo and nav items */
+}
+
+/* Logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo image */
+.logo {
+  height: 50px;
+  width: auto;
+  margin-right: 40px; /* More space between logo and nav items */
+}
+
+/* Navigation list */
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 30px; /* Increase gap between nav items */
+}
+
+/* Navigation list items */
+.header li {
+  margin: 0 15px;
+}
+
+/* Navigation links */
+.header a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for navigation links */
+.header a:hover {
+  color: #ffd700; /* Golden color on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .header {
+      padding: 10px 20px;
+      flex-direction: column;
+  }
+
+  .header nav {
+      flex-direction: column;
+      margin-left: 0; /* Remove margin for small screens */
+  }
+
+  .header ul {
+      flex-direction: column;
+      gap: 10px; /* Reduce gap for smaller screens */
+  }
+
+  .header li {
+      margin: 10px 0;
+  }
+
+  .logo {
+      margin-bottom: 10px; /* Space logo from nav on small screens */
+  }
+}
+/* Assuming your header image has a class named 'header-logo' */
+.header-logo {
+  width: 150%; /* Increase the width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* If using flexbox or similar layout, adjust alignment if needed */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

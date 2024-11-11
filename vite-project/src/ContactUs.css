@@ -1,0 +1,55 @@
+/* Overall styling for the Contact Us component */
+.contact-us {
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 10% auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 1100px; /* Adjusted width to fit within the viewport */
+  
+  color: white; /* Text color to make it visible on black background */
+}
+
+.contact-us h2 {
+  font-size: 32px;
+  color: #d9534f; /* Blood red theme */
+  margin-bottom: 20px;
+}
+
+/* Contact details styling */
+.contact-us p {
+  font-size: 18px;
+  color: black; /* Adjusted to a lighter color for visibility */
+  margin: 10px 0;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Styling for phone and email */
+.contact-us p:last-child {
+  border: none; /* Removing border for the last element */
+}
+
+/* Hover effect for interaction */
+.contact-us p:hover {
+  color: #d9534f;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .contact-us {
+      padding: 20px;
+      width: 90%; /* Make sure it stays responsive on smaller screens */
+  }
+
+  .contact-us h2 {
+      font-size: 28px;
+  }
+
+  .contact-us p {
+      font-size: 16px;
+  }
+}

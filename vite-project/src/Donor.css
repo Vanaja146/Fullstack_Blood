@@ -1,0 +1,121 @@
+
+.donor {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  .donor h2 {
+    font-size: 28px;
+    color: #d9534f; /* Matching the blood donation theme */
+    margin-bottom: 20px;
+    margin-top: 60px; /* Increase the top margin to move the heading downward */
+  }
+  
+  
+  /* .donor h2 {
+    font-size: 28px;
+    color: #d9534f; 
+    margin-bottom: 20px;
+  }
+   */
+  /* Input fields styling */
+  .donor input {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .donor input:focus {
+    border-color: #d9534f; /* Focus on input fields in theme color */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .donor button {
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donor button:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+  }
+  
+  /* Table styling */
+  .donor table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .donor table, .donor th, .donor td {
+    border: 1px solid #ddd;
+  }
+  
+  .donor th, .donor td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .donor th {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .donor tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .donor tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Donor list heading */
+  .donor h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .donor input {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    .donor table {
+      font-size: 14px;
+    }
+  }
+  .donation-instructions, .eligibility-requirements {
+    list-style-type: none;  /* Remove bullets */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .donation-instructions li, .eligibility-requirements li {
+    margin-bottom: 10px;  /* Add space between list items */
+    font-size: 16px;
+    position: relative;   /* Position for custom number or symbol */
+    padding-left: 20px;   /* Add padding for alignment */
+  }
+  
+  /* Optional: Add custom marker (like a dash or number) instead of bullets */
+  .donation-instructions li::before, .eligibility-requirements li::before {
+    content: '';  /* You can set this to a symbol or number if needed */
+    position: absolute;
+    left: 0;
+    color: #d9534f;  /* Set a color for the custom marker */
+  }

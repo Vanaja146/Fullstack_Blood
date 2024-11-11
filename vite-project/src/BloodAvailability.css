@@ -1,0 +1,92 @@
+/* Overall container styling */
+.blood-availability {
+    padding: 70px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  .blood-availability h2 {
+    font-size: 28px;
+    color: #d9534f; /* Blood donation theme color */
+    margin-bottom: 20px;
+  }
+  
+  .blood-availability h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  /* Input field styling */
+  .blood-availability input {
+    padding: 10px;
+    width: 900px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .blood-availability input:focus {
+    border-color: #d9534f; /* Focus color matching theme */
+    outline: none;
+  }
+  
+  /* Search button styling */
+  .blood-availability button {
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blood-availability button:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+  }
+  
+  /* Table styling */
+  .blood-availability table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .blood-availability th, .blood-availability td {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  .blood-availability th {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .blood-availability tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .blood-availability tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Media query for responsiveness on smaller screens */
+  @media (max-width: 768px) {
+    .blood-availability input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .blood-availability table {
+      font-size: 14px;
+    }
+  }
+  
