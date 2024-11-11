@@ -62,7 +62,7 @@ const Recipients = () => {
 
   const handleAddRecipient = async () => {
     try {
-      const response = await axios.post("http://localhost:5010/api/recipients", form, {
+      const response = await axios.post("https://fullstack-backend-occy.onrender.com/api/recipients", form, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" }
       });
