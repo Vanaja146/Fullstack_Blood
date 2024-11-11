@@ -20,7 +20,7 @@ const Donor = () => {
 
   const handleAddDonor = async () => {
     try {
-      const response = await axios.post("http://localhost:5010/api/donors", form, {
+      const response = await axios.post("https://fullstack-backend-occy.onrender.com/api/donors", form, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" }
       });
